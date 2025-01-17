@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: georgia;
+}
+
+body {
+    background-color: #80a6b9;
+}
+
+body h1 {
+    text-align: center;
+    padding: 30px;
+    color: #703131;
+    font-size: 4rem;
+}
+
+body label {
+    display: block;
+    padding: 10px;
+    color: #231c1c;
+    text-align: center;
+    font-size: 35px;
+}
+
+body .valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    margin: 10px 0;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 2rem;
+    box-shadow: 0 2px 25px rgb(44, 60, 181);
+}
+
+.operaciones {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+select {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 2px 25px rgb(9, 8, 8);
+}
+
+.botoncalcular {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    padding-top: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #231c1c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: 0 2px 25px rgb(236, 15, 15);
+}
+
+.botonlimpiar {
+    display: flex;
+    justify-content: right;
+    margin: 40px 0;
+    margin-right: 5rem;
+}
