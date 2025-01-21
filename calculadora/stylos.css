@@ -13,11 +13,11 @@ body {
 }
 
 .calculadora {
-    background-color: #adff48;
+    background-color: #7c938d;
     color: white;
-    width: 350px;
+    width: 450px;
     max-width: 100%;
-    padding: 1.5rem;
+    padding: 2.5rem;
     border-radius: 1.5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -47,10 +47,16 @@ body {
     align-items: center;
     border-radius: .5rem;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
 .btn:hover {
     background-color: #004f78;
+}
+
+.btn:active {
+    background-color: #004d7a;
+    transform: scale(0.95);
 }
 
 #cero {
@@ -63,5 +69,13 @@ body {
 }
 
 #igual:hover {
+    background-color: #e6394a;
+}
+
+#c {
+    background-color: #e65766;
+}
+
+#c:hover {
     background-color: #e6394a;
 }
